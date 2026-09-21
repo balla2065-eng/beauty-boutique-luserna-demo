@@ -1,4 +1,7 @@
-name: Deploy su GitHub Pages
+# Le pagine sono pubblicate da GitHub Pages a partire dal branch `gh-pages`
+# (sorgente "Deploy from a branch"). Questo workflow allinea `gh-pages` a `main`
+# a ogni push, cosi' il sito pubblicato resta uguale al contenuto del repository.
+name: Pubblica su GitHub Pages
 
 on:
   push:
@@ -6,30 +9,19 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Configura Pages
-        uses: actions/configure-pages@v5
         with:
-          enablement: true
-      - name: Carica il sito statico
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - name: Pubblica
-        id: deployment
-        uses: actions/deploy-pages@v4
+          fetch-depth: 0
+
+      - name: Allinea gh-pages a main
+        run: git push origin HEAD:refs/heads/gh-pages --force

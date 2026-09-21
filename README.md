@@ -105,8 +105,19 @@ Lo script di test non fa parte del sito pubblicato.
 
 ## Deploy
 
-Push su `main` → GitHub Actions (`.github/workflows/pages.yml`) pubblica la cartella su
-GitHub Pages: <https://balla2065-eng.github.io/beauty-boutique-luserna-demo/>
+Il sito è pubblicato con **GitHub Pages** a partire dal branch `gh-pages`
+(sorgente *Deploy from a branch*):
+
+<https://balla2065-eng.github.io/beauty-boutique-luserna-demo/>
+
+A ogni push su `main`, il workflow `.github/workflows/pages.yml` riallinea `gh-pages` a `main`;
+la build e la pubblicazione sono poi gestite da GitHub Pages.
+
+> Nota: la sorgente *GitHub Actions* (`actions/deploy-pages`) non è utilizzabile in questo
+> repository perché il token dei workflow non ha i permessi per creare o riconfigurare il sito
+> Pages (`Create Pages site failed: Resource not accessible by integration`). Per passare a quella
+> modalità basta impostare a mano *Settings → Pages → Source: GitHub Actions* e ripristinare il
+> workflow di deploy con `actions/upload-pages-artifact` + `actions/deploy-pages`.
 
 ## Licenza
 
