@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560" role="img" aria-label="Schema illustrativo della posizione della boutique in Via Primo Maggio a Luserna San Giovanni">
+  <rect width="720" height="560" fill="#fbf4f0"/>
+  <g fill="#f1e6de">
+    <rect x="40" y="40" width="180" height="120" rx="12"/>
+    <rect x="256" y="40" width="200" height="86" rx="12"/>
+    <rect x="492" y="40" width="188" height="150" rx="12"/>
+    <rect x="40" y="226" width="150" height="132" rx="12"/>
+    <rect x="530" y="250" width="150" height="120" rx="12"/>
+    <rect x="40" y="424" width="210" height="96" rx="12"/>
+    <rect x="300" y="404" width="180" height="116" rx="12"/>
+    <rect x="530" y="430" width="150" height="90" rx="12"/>
+  </g>
+
+  <g opacity=".85">
+    <path d="M0 200h720" stroke="#e4d2cf" stroke-width="42" stroke-linecap="round"/>
+    <path d="M0 200h720" stroke="#ffffff" stroke-width="30"/>
+    <path d="M0 200h720" stroke="#e0c3cd" stroke-width="2.4" stroke-dasharray="16 16"/>
+  </g>
+
+  <g opacity=".85">
+    <path d="M228 0v560" stroke="#ece0da" stroke-width="30" stroke-linecap="round"/>
+    <path d="M228 0v560" stroke="#ffffff" stroke-width="20"/>
+  </g>
+  <g opacity=".85">
+    <path d="M500 190v370" stroke="#ece0da" stroke-width="26" stroke-linecap="round"/>
+    <path d="M500 190v370" stroke="#ffffff" stroke-width="17"/>
+  </g>
+  <g opacity=".75">
+    <path d="M40 388h640" stroke="#ece0da" stroke-width="22" stroke-linecap="round"/>
+    <path d="M40 388h640" stroke="#ffffff" stroke-width="14"/>
+  </g>
+
+  <g fill="#a8b585" opacity=".55">
+    <circle cx="300" cy="286" r="34"/><circle cx="352" cy="312" r="24"/><circle cx="262" cy="316" r="20"/>
+  </g>
+
+  <g>
+    <circle cx="352" cy="200" r="34" fill="#f7dde7" opacity=".9"/>
+    <g transform="translate(352 200)">
+      <path d="M0 26c0 0-19-19-19-31a19 19 0 0 1 38 0C19 7 0 26 0 26Z" fill="#b4567a"/>
+      <circle cx="0" cy="-6" r="7" fill="#fdf5f6"/>
+    </g>
+  </g>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#7b6670">
+    <text x="360" y="158" font-size="21" text-anchor="middle" fill="#93395f">Via Primo Maggio 33</text>
+    <text x="360" y="252" font-size="15" text-anchor="middle">Luserna San Giovanni (TO)</text>
+    <text x="118" y="112" font-size="14" text-anchor="middle" opacity=".85">Val Pellice</text>
+    <text x="606" y="340" font-size="14" text-anchor="middle" opacity=".85">verso Pinerolo</text>
+  </g>
+
+  <rect x="0" y="0" width="720" height="560" fill="none" stroke="#e6d5dc" stroke-width="3"/>
+</svg>

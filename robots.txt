@@ -1,0 +1,4 @@
+# Proposta dimostrativa - sito non ufficiale.
+# L'indicizzazione e' disattivata per evitare confusione con i canali ufficiali dell'attivita'.
+User-agent: *
+Disallow: /

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Beauty Boutique">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e3ea"/>
+      <stop offset="1" stop-color="#e9bfd0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="48" cy="48" r="46" fill="url(#lg)"/>
+  <circle cx="48" cy="48" r="40.5" fill="none" stroke="#b08d57" stroke-width="1.2" opacity=".75"/>
+  <g fill="none" stroke="#93395f" stroke-width="2.2" stroke-linecap="round">
+    <path d="M48 24c5.6 5.3 8.4 9.7 8.4 13.6A8.4 8.4 0 0 1 48 46a8.4 8.4 0 0 1-8.4-8.4C39.6 33.7 42.4 29.3 48 24Z"/>
+  </g>
+  <text x="48" y="71" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="600" fill="#2e2029" letter-spacing="1">BB</text>
+</svg>

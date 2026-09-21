@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Illustrazione: dettaglio floreale con petali e foglie">
+  <defs>
+    <linearGradient id="g6bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdf3f5"/><stop offset="1" stop-color="#f6e6e0"/>
+    </linearGradient>
+    <linearGradient id="g6p" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6dbe4"/><stop offset="1" stop-color="#e3a8bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g6bg)"/>
+  <g opacity=".45" fill="none" stroke="#c98fa9" stroke-width="1.6">
+    <circle cx="300" cy="200" r="160"/><circle cx="300" cy="200" r="120"/>
+  </g>
+  <g transform="translate(300 200)">
+    <g fill="url(#g6p)">
+      <ellipse cx="0" cy="-64" rx="30" ry="66"/>
+      <ellipse cx="0" cy="-64" rx="30" ry="66" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-64" rx="30" ry="66" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-64" rx="30" ry="66" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-64" rx="30" ry="66" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-64" rx="30" ry="66" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-64" rx="30" ry="66" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-64" rx="30" ry="66" transform="rotate(315)"/>
+    </g>
+    <circle cx="0" cy="0" r="30" fill="#d9bb8e"/>
+    <circle cx="0" cy="0" r="18" fill="#b08d57"/>
+  </g>
+  <g fill="#a8b585" opacity=".85">
+    <path d="M96 330c0-46 24-76 66-88-4 46-26 74-66 88Z"/>
+    <path d="M504 330c0-46-24-76-66-88 4 46 26 74 66 88Z"/>
+  </g>
+  <g fill="#e9bfd0" opacity=".7">
+    <ellipse cx="120" cy="96" rx="30" ry="13" transform="rotate(-24 120 96)"/>
+    <ellipse cx="488" cy="112" rx="26" ry="11" transform="rotate(20 488 112)"/>
+    <ellipse cx="82" cy="196" rx="20" ry="9" transform="rotate(8 82 196)"/>
+  </g>
+</svg>

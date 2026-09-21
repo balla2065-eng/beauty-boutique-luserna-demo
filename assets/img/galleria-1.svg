@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Illustrazione: cabina estetica con lettino e luce soffusa">
+  <defs>
+    <linearGradient id="g1bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbeff2"/><stop offset="1" stop-color="#f4e0e4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g1bg)"/>
+  <circle cx="470" cy="96" r="58" fill="#fff" opacity=".65"/>
+  <circle cx="470" cy="96" r="34" fill="#f5d9c6" opacity=".8"/>
+  <g stroke="#c98fa9" stroke-width="2" fill="none" opacity=".6">
+    <path d="M470 130v52"/><path d="M448 182h44"/>
+  </g>
+  <rect x="0" y="292" width="600" height="108" fill="#ecd7d9"/>
+  <g>
+    <rect x="86" y="236" width="360" height="58" rx="26" fill="#ffffff"/>
+    <rect x="86" y="236" width="360" height="58" rx="26" fill="none" stroke="#e0c3cd" stroke-width="2"/>
+    <rect x="104" y="216" width="112" height="30" rx="15" fill="#f6e2e8"/>
+    <rect x="110" y="294" width="16" height="42" rx="7" fill="#c8a48f"/>
+    <rect x="406" y="294" width="16" height="42" rx="7" fill="#c8a48f"/>
+  </g>
+  <g opacity=".85">
+    <rect x="478" y="240" width="72" height="54" rx="10" fill="#ffffff" stroke="#e0c3cd" stroke-width="2"/>
+    <rect x="492" y="214" width="16" height="28" rx="6" fill="#e6adc2"/>
+    <rect x="518" y="220" width="14" height="22" rx="6" fill="#d9bb8e"/>
+  </g>
+  <g opacity=".5" fill="none" stroke="#b08d57" stroke-width="2" stroke-linecap="round">
+    <path d="M60 292c0-46 14-78 40-96"/><path d="M100 196c-24 6-38-8-40-30"/><path d="M100 196c22-2 34-18 32-40"/>
+  </g>
+  <circle cx="300" cy="60" r="7" fill="#e6adc2" opacity=".7"/>
+  <circle cx="340" cy="92" r="4" fill="#b08d57" opacity=".6"/>
+  <circle cx="262" cy="96" r="5" fill="#c98fa9" opacity=".6"/>
+</svg>

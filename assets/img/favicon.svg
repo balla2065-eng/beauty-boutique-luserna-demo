@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <circle cx="32" cy="32" r="32" fill="#b4567a"/>
+  <path d="M32 14c5.6 5.6 8.4 10.2 8.4 14.2A8.4 8.4 0 0 1 32 36.6a8.4 8.4 0 0 1-8.4-8.4c0-4 2.8-8.6 8.4-14.2Z" fill="none" stroke="#fdf5f6" stroke-width="2.6" stroke-linejoin="round"/>
+  <text x="32" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#fdf5f6">BB</text>
+</svg>
